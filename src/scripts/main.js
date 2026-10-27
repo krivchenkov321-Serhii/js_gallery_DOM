@@ -12,6 +12,6 @@ list.addEventListener('click', (e) => {
 
   const currentImg = link.href;
 
-  event.preventDefault();
+  e.preventDefault();
   bigImg.setAttribute('src', currentImg);
 });
